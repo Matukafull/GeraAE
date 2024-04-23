@@ -1,0 +1,28 @@
+Sim, é possível interagir diretamente com o código HTML em um navegador sem usar o cursor do mouse, 
+mas isso geralmente é feito usando JavaScript injetado na página web. 
+O JavaScript pode ser usado para manipular elementos da página, como clicar em botões, 
+preencher formulários, enviar requisições AJAX, entre outras interações.
+
+Existem várias maneiras de injetar JavaScript em uma página da web para interagir com o código HTML. 
+Aqui estão algumas abordagens comuns:
+1. **Console do navegador**: Você pode abrir o console do navegador (geralmente pressionando F12) e digitar 
+comandos JavaScript diretamente. Por exemplo, você pode selecionar um elemento e disparar um evento de clique:
+
+   ```javascript
+   document.querySelector('button').click();
+   ```
+
+2. **Extensões do navegador**: Você pode criar ou instalar extensões do navegador que executam 
+scripts JavaScript em páginas da web. Isso permite automatizar interações em páginas específicas.
+
+3. **Automatização de navegador com Selenium**: Embora o Selenium seja frequentemente usado 
+para automação de testes, você também pode usá-lo para injetar e executar JavaScript em páginas da web. 
+Isso pode ser útil para interações específicas que não são possíveis apenas com o PyAutoGUI.
+
+4. **Ferramentas de automação baseadas em JavaScript**: Existem várias bibliotecas e frameworks 
+de automação baseados em JavaScript, como Puppeteer e Playwright, que permitem controlar um 
+navegador de forma programática e interagir com o código HTML.
+
+Essas são algumas opções para interagir diretamente com o código HTML em um navegador 
+sem usar o cursor do mouse. A escolha da abordagem depende das suas necessidades específicas e do 
+contexto em que você está trabalhando.
